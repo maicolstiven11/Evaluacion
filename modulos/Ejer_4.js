@@ -14,7 +14,7 @@ export const procesarImpuestos = function() {
         let valor = parseFloat(prompt(`Ingrese el valor del producto ${i}: `));
         let porcentaje = parseFloat(prompt(`Ingrese el porcentaje de impuesto para el producto ${i}: `));
 
-        // Usamos la función declarada para calcular el impuesto unitario
+        // Uso la función declarada para calcular el impuesto unitario
         let impuesto = calcularImpuestoUnitario(valor, porcentaje);
 
         // Acumulamos el impuesto total

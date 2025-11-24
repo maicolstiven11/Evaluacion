@@ -1,7 +1,7 @@
 export function calcularPromedio(notas) {
     let suma = 0;
 
-    // Recorremos el arreglo con un ciclo for
+    // Recorro el arreglo con un ciclo for
     for (let i = 0; i < notas.length; i++) {
         suma += notas[i];
     }
