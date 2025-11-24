@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(38, 45, 48, 1) 0%, rgba(237, 197, 104, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    transition: font-size 0.3s ease;
+}
+h1:hover{
+    font-size: 40px;
+}
+img{
+    border-radius: 30px;
+    box-shadow: 0 0 10px orange;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+    transition: all 0.2s ease;
+}
+a:hover{
+    font-size: 35px;
+}
+section{
+    text-align: center;
+    width: 300px;
+    height: 290px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
