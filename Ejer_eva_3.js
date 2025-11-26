@@ -1,4 +1,4 @@
-import { generarTabla } from "./modulos/Ejer_3.js";
+import { generarTabla } from "./modulos/Ejer_3.js"; //importo el modulo necesario para el punto 3
 // Pido el número base al usuario
 let numero = parseInt(prompt("Ingrese el número para generar su tabla de multiplicar: "));
 
